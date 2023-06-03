@@ -53,6 +53,7 @@ public class MagicMojaProcessor extends AbstractProcessor {
 
             TypeSpec magicMoja = TypeSpec.classBuilder("MagicMoja")
                     .addModifiers(Modifier.PUBLIC)
+                    .addSuperinterface(className)
                     .addMethod(pullOut)
                     .build();
 
