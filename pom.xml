@@ -23,6 +23,13 @@
       <scope>test</scope>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/com.google.auto.service/auto-service -->
+    <dependency>
+      <groupId>com.google.auto.service</groupId>
+      <artifactId>auto-service</artifactId>
+      <version>1.0</version>
+    </dependency>
+
     <!-- https://mvnrepository.com/artifact/com.squareup/javapoet -->
     <dependency>
       <groupId>com.squareup</groupId>
